@@ -2304,6 +2304,10 @@ p {
     margin-left: calc(var(--spacing) * 3.5);
   }
 
+  .ml-auto {
+    margin-left: auto;
+  }
+
   .badge {
     padding-inline: calc(var(--spacing) * 5);
     padding-block: calc(var(--spacing) * 1.5);
@@ -2785,12 +2789,16 @@ p {
     gap: calc(var(--spacing) * 6);
   }
 
+  .gap-10 {
+    gap: calc(var(--spacing) * 10);
+  }
+
   .gap-\[5px\] {
     gap: 5px;
   }
 
-  .gap-\[70px\] {
-    gap: 70px;
+  .gap-\[40px\] {
+    gap: 40px;
   }
 
   :where(.space-y-0 > :not(:last-child)) {
@@ -2915,6 +2923,10 @@ p {
 
   .rounded-\[10px\] {
     border-radius: 10px;
+  }
+
+  .rounded-\[12px\] {
+    border-radius: 12px;
   }
 
   .rounded-\[14px\] {
@@ -3357,12 +3369,12 @@ p {
     padding-top: calc(var(--spacing) * 28);
   }
 
-  .pt-\[26px\] {
-    padding-top: 26px;
-  }
-
   .pt-\[40px\] {
     padding-top: 40px;
+  }
+
+  .pt-\[44px\] {
+    padding-top: 44px;
   }
 
   .pt-\[100px\] {
@@ -3379,6 +3391,10 @@ p {
 
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
+  }
+
+  .pb-4 {
+    padding-bottom: calc(var(--spacing) * 4);
   }
 
   .pb-5 {
@@ -4574,16 +4590,20 @@ p {
       max-width: 1140px;
     }
 
-    .xl\:px-14 {
-      padding-inline: calc(var(--spacing) * 14);
+    .xl\:px-12 {
+      padding-inline: calc(var(--spacing) * 12);
     }
 
     .xl\:py-0 {
       padding-block: calc(var(--spacing) * 0);
     }
 
-    .xl\:py-\[60px\] {
-      padding-block: 60px;
+    .xl\:py-\[30px\] {
+      padding-block: 30px;
+    }
+
+    .xl\:py-\[40px\] {
+      padding-block: 40px;
     }
 
     .xl\:pt-60 {
