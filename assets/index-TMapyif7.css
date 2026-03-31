@@ -959,7 +959,7 @@ p {
   height: calc(var(--spacing) * 5);
   content: var(--tw-content);
   width: calc(var(--spacing) * 5);
-  --tw-content: url("/new/images/icons/checkmark-white.svg");
+  --tw-content: url("/images/icons/checkmark-white.svg");
   content: var(--tw-content);
   content: var(--tw-content);
   position: relative;
@@ -986,7 +986,7 @@ p {
 }
 
 .details-body ul li:where(.dark, .dark *):before {
-  --tw-content: url("/new/images/icons/checkmark-white.svg");
+  --tw-content: url("/images/icons/checkmark-white.svg");
   content: var(--tw-content);
 }
 
@@ -1015,7 +1015,7 @@ p {
   height: calc(var(--spacing) * 5);
   content: var(--tw-content);
   width: calc(var(--spacing) * 5);
-  --tw-content: url("/new/images/icons/checkmark-white.svg");
+  --tw-content: url("/images/icons/checkmark-white.svg");
   content: var(--tw-content);
   position: relative;
 }
@@ -1025,7 +1025,7 @@ p {
 }
 
 .details-body ol li:first-child:where(.dark, .dark *):before {
-  --tw-content: url("/new/images/icons/checkmark-white.svg");
+  --tw-content: url("/images/icons/checkmark-white.svg");
   content: var(--tw-content);
 }
 
@@ -1048,7 +1048,7 @@ p {
   height: calc(var(--spacing) * 5);
   content: var(--tw-content);
   width: calc(var(--spacing) * 5);
-  --tw-content: url("/new/images/icons/checkmark-white.svg");
+  --tw-content: url("/images/icons/checkmark-white.svg");
   content: var(--tw-content);
   position: relative;
 }
@@ -1058,7 +1058,7 @@ p {
 }
 
 .details-body ol li:nth-child(2):where(.dark, .dark *):before {
-  --tw-content: url("/new/images/icons/checkmark-white.svg");
+  --tw-content: url("/images/icons/checkmark-white.svg");
   content: var(--tw-content);
 }
 
@@ -1081,7 +1081,7 @@ p {
   height: calc(var(--spacing) * 5);
   content: var(--tw-content);
   width: calc(var(--spacing) * 5);
-  --tw-content: url("/new/images/icons/checkmark-white.svg");
+  --tw-content: url("/images/icons/checkmark-white.svg");
   content: var(--tw-content);
   position: relative;
 }
@@ -1091,7 +1091,7 @@ p {
 }
 
 .details-body ol li:last-child:where(.dark, .dark *):before {
-  --tw-content: url("/new/images/icons/checkmark-white.svg");
+  --tw-content: url("/images/icons/checkmark-white.svg");
   content: var(--tw-content);
 }
 
@@ -3183,15 +3183,15 @@ p {
   }
 
   .bg-\[url\(\'\/images\/bg-waves-green\.svg\'\)\] {
-    background-image: url("/new/images/bg-waves-green.svg");
+    background-image: url("/images/bg-waves-green.svg");
   }
 
   .bg-\[url\(\'\/images\/bg-waves\.svg\'\)\] {
-    background-image: url("/new/images/bg-waves.svg");
+    background-image: url("/images/bg-waves.svg");
   }
 
   .bg-\[url\(\'\/images\/ns-img-169\.png\'\)\] {
-    background-image: url("/new/images/ns-img-169.png");
+    background-image: url("/images/ns-img-169.png");
   }
 
   .bg-cover {
