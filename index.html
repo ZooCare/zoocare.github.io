@@ -93,7 +93,7 @@ Head links
 
     <title>ZooCare</title>
     
-    <link rel="stylesheet" href="/assets/index-TMapyif7.css">
+    <link rel="stylesheet" href="/assets/index-C8mbX-dS.css">
   </head>
   <body class="bg-background-1 dark:bg-background-5 overflow-x-hidden">
     <!-- =========================
@@ -130,10 +130,26 @@ Header v1
         </li>
         <li class="nav-item relative cursor-pointer py-2.5">
           <a
+            href="#steps"
+            class="lenis-scroll-to hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200"
+          >
+            <span>Come funziona</span>
+          </a>
+        </li>
+        <li class="nav-item relative cursor-pointer py-2.5">
+          <a
             href="#features"
             class="lenis-scroll-to hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200"
           >
             <span>Caratteristiche</span>
+          </a>
+        </li>
+        <li class="nav-item relative cursor-pointer py-2.5">
+          <a
+            href="#faq"
+            class="lenis-scroll-to hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200"
+          >
+            <span>Domande Frequenti</span>
           </a>
         </li>
         <li class="nav-item relative cursor-pointer py-2.5">
@@ -146,7 +162,7 @@ Header v1
         </li>
         <li class="nav-item relative cursor-pointer py-2.5">
           <a
-            href="mailto:info@zoocare.app"
+            href="https://hub.zoocare.app/contact-us" target="_blank"
             class="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200"
           >
             <span>Contatti</span>
@@ -203,8 +219,18 @@ Mobile Menu
           </a>
         </li>
         <li>
+          <a href="#steps" class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block">
+            Come funziona 
+          </a>
+        </li>
+        <li>
           <a href="#features" class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block">
             Caratteristiche 
+          </a>
+        </li>
+        <li>
+          <a href="#faq" class="text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left block">
+            Domande Frequenti 
           </a>
         </li>
         <li>
@@ -241,11 +267,11 @@ Hero section
     <!--Hero shape right item-->
     <div class="text-left max-lg:pt-[40px] max-md:pt-[0px] md:text-center">
       <h1 data-ns-animate data-delay="0.2" class="hero-title mb-4 tracking-tight">
-        Gestisci animali, visite e clienti.<br class="hidden md:block" />
-        Tutto in un’unica app.
+        Il gestionale per i professionisti<br class="hidden md:block" />
+        della podologia bovina.
       </h1>
       <p data-ns-animate data-delay="0.2" class="mx-auto mb-6 max-w-[650px]">
-        ZooCare è l’app progettata per i professionisti della cura degli animali: semplice, affidabile, veloce e sempre con te.
+        Pareggi, patologie, solette e trattamenti: registra tutto in campo e condividi i risultati con l'allevatore in un click.
       </p>
       <div data-ns-animate data-delay="0.6" class="block md:inline-block">
         <a
@@ -261,10 +287,130 @@ Hero section
 </section>
 
       <!-- =========================
-Integration section
+Steps section
 ===========================-->
 <section
-  class="pt-16 px-9 bg-background-1 bg-[url('/images/bg-waves-green.svg')] bg-fixed md:pt-20 lg:pt-[90px] xl:pt-[150px] pb-8 md:pb-10 lg:pb-[90px] xl:pb-[200px]" id="features"
+  class="py-16 md:py-[90px] lg:py-[100px] border-t-[3px] border-b-[3px] border-[#E5EEC4]"
+  aria-label="Application Steps"
+  id="steps"
+>
+  <div class="main-container">
+    <div class="space-y-0">
+      <div class="text-center space-y-3 md:space-y-5 max-w-[720px] mx-auto lg:mb-[70px] mb-12">
+        <div class="space-y-3">
+          <h2 data-ns-animate data-delay="0.3">
+            Con ZooCare sei subito operativo
+          </h2>
+          <p data-ns-animate data-delay="0.4">
+            Semplice come contare fino a quattro!
+          </p>          
+        </div>
+      </div>        
+      <div
+        class="progress-container flex flex-col lg:flex-row items-start justify-center xl:justify-normal gap-[62px] max-lg:px-5"
+      >
+        <!-- step one  -->
+        <div
+          data-ns-animate
+          class="space-y-3 md:max-w-[90%] lg:max-w-[250px] mx-auto w-full"
+          role="region"
+          aria-label="Step 1"
+        >
+          <!-- progress bar  -->
+          <div class="progress-bar w-full h-[2px] bg-stroke-2 relative dark:bg-stroke-6">
+            <div class="absolute progress-line w-[25%] left-0 bg-ns-green top-0 h-full"></div>
+          </div>
+          <!-- number -->
+          <p class="text-tagline-2 text-primary-500">01</p>
+
+          <!-- text  -->
+          <div class="space-y-2">
+            <h2 class="text-heading-5">Crea la visita</h2>
+            <p class="max-w-[260px] w-full">
+              Seleziona allevamento, data e tipo di visita. Tutto pronto in pochi secondi.
+            </p>
+          </div>
+        </div>
+
+        <!-- step two  -->
+        <div
+          data-ns-animate
+          class="space-y-3 md:max-w-[90%] lg:max-w-[250px] mx-auto w-full"
+          role="region"
+          aria-label="Step 2"
+        >
+          <!-- progress bar  -->
+          <div class="progress-bar w-full h-[2px] bg-stroke-2 relative dark:bg-stroke-6">
+            <div class="absolute progress-line w-[0%] left-0 bg-ns-green top-0 h-full"></div>
+          </div>
+          <!-- number -->
+          <p class="text-tagline-2 text-primary-500">02</p>
+
+          <!-- text  -->
+          <div class="space-y-2">
+            <h2 class="text-heading-5">Aggiungi animali</h2>
+            <p class="max-w-[260px] w-full">
+              Cerca per matricola, organizza in gruppi di lavoro. Anche senza connessione.
+            </p>
+          </div>
+        </div>
+
+        <!-- step three  -->
+        <div
+          data-ns-animate
+          class="space-y-3 md:max-w-[90%] lg:max-w-[250px] mx-auto w-full"
+          role="region"
+          aria-label="Step 3"
+        >
+          <!-- progress bar  -->
+          <div class="progress-bar w-full h-[2px] bg-stroke-2 relative dark:bg-stroke-6">
+            <div class="absolute progress-line w-[0%] left-0 bg-ns-green top-0 h-full"></div>
+          </div>
+          <!-- number -->
+          <p class="text-tagline-2 text-primary-500">03</p>
+
+          <!-- text  -->
+          <div class="space-y-2">
+            <h2 class="text-heading-5">Registra gli interventi</h2>
+            <p class="max-w-[260px] w-full">
+              Pareggio, patologie, solette, fasciature, foto: tutto direttamente in campo.
+            </p>
+          </div>
+        </div>
+
+        <!-- step four  -->
+        <div
+          data-ns-animate
+          class="space-y-3 md:max-w-[90%] lg:max-w-[250px] mx-auto w-full"
+          role="region"
+          aria-label="Step 4"
+        >
+          <!-- progress bar  -->
+          <div class="progress-bar w-full h-[2px] bg-stroke-2 relative dark:bg-stroke-6">
+            <div class="absolute progress-line w-[0%] left-0 bg-ns-green top-0 h-full"></div>
+          </div>
+          <!-- number -->
+          <p class="text-tagline-2 text-primary-500">04</p>
+
+          <!-- text  -->
+          <div class="space-y-2">
+            <h2 class="text-heading-5">Condividi il report</h2>
+            <p class="max-w-[260px] w-full">
+              Il conto e le statistiche dell'intervento vengono calcolate in automatico. Condividi con l'allevatore via link o PDF.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+      <!-- =========================
+Features section
+===========================-->
+<section
+  class="pt-16 px-9 bg-background-1 bg-[url('/images/bg-waves-green.svg')] bg-fixed md:pt-20 lg:pt-[90px] xl:pt-[150px] pb-4 md:pb-5 lg:pb-[45px] xl:pb-[100px]" id="features"
 >
   <div>
     <div class="main-container">
@@ -277,10 +423,10 @@ Integration section
             Perchè ZooCare?
           </h2>
           <p data-ns-animate data-delay="0.4" class="mb-7 lg:max-w-[620px]">
-            Gestire clienti, animali e interventi sul campo può diventare rapidamente complicato.<br/>
-Questa app nasce per semplificare il lavoro dei professionisti che operano ogni giorno negli allevamenti, mettendo tutte le informazioni importanti in un unico strumento.<br/>
-Dall’organizzazione delle attività alla registrazione delle visite, fino alla gestione dei dati e dei documenti: tutto è pensato per aiutarti a lavorare in modo più ordinato, veloce e affidabile.<br/>
-Usala direttamente da smartphone o tablet, ovunque ti trovi, e tieni sempre sotto controllo la tua attività.
+            Gestire pareggi, patologie e interventi sul campo può diventare rapidamente complicato.<br/>
+ZooCare nasce per semplificare il lavoro di pareggiatori, podologi o veterinari che operano ogni giorno negli allevamenti, mettendo tutte le informazioni importanti in un unico strumento.<br/>
+Dall'organizzazione delle visite alla registrazione degli interventi, fino alla condivisione dei report con l'allevatore: tutto è pensato per aiutarti a lavorare in modo più ordinato, veloce e affidabile.<br/>
+Usala direttamente da smartphone o tablet, ovunque ti trovi.
           </p>
           <div data-ns-animate data-delay="0.5">
             <a
@@ -314,9 +460,9 @@ Usala direttamente da smartphone o tablet, ovunque ti trovi, e tieni sempre sott
 
               <figure class="p-8 bg-white dark:bg-background-5 rounded-xl space-y-6">
                 <figcaption class="space-y-2">
-                  <h5>Gestione animali completa</h5>
+                  <h5>Anagrafica animali completa</h5>
                   <p class="max-w-[450px]">
-                    Schede anagrafiche dettagliate con storico e gruppi dinamici. Statistiche e report stampabili.
+                    Cerca per matricola, visualizza lo storico podologico completo, patologie ricorrenti e interventi passati per ogni animale.
                   </p>
                 </figcaption>
                 <figure class="max-w-[385px] w-full">
@@ -347,9 +493,10 @@ Usala direttamente da smartphone o tablet, ovunque ti trovi, e tieni sempre sott
 
               <figure class="p-8 bg-white dark:bg-background-5 rounded-xl space-y-6">
                 <figcaption class="space-y-2">
-                  <h5>Visite e clienti sotto controllo</h5>
+                  <h5>Gestione visite in campo</h5>
                   <p class="max-w-[450px]">
-                    Anagrafica clienti completa, calendario appuntamenti con promemoria.
+                    Crea visite con gruppi di lavoro, registra pareggi e controlli, annota solette e fasciature per ogni animale.
+                    Crea i tuoi appuntamenti con promemoria.
                   </p>
                 </figcaption>
                 <div class="rounded-2xl overflow-hidden max-w-[400px] w-full">
@@ -380,8 +527,8 @@ Usala direttamente da smartphone o tablet, ovunque ti trovi, e tieni sempre sott
 
               <figure class="p-8 bg-white dark:bg-background-5 rounded-xl space-y-6">
                 <figcaption class="space-y-2">
-                  <h5>La salute dei vostri animali</h5>
-                  <p class="max-w-[450px]">Registrazione dettagliata delle visite e interventi podoligici con annotazioni, monitoraggio patologie e terapie.</p>
+                  <h5>Patologie e statistiche</h5>
+                  <p class="max-w-[450px]">Catalogo patologie personalizzabile, conteggi automatici, percentuali zoppie e dermatiti, grafici per allevamento.</p>
                 </figcaption>
                 <div class="rounded-2xl overflow-hidden max-w-[400px] w-full">
                   <img
@@ -417,13 +564,11 @@ Usala direttamente da smartphone o tablet, ovunque ti trovi, e tieni sempre sott
                   </p>
                 </figcaption>
                 <div class="rounded-2xl overflow-hidden max-w-[400px] w-full">
-                  <a href="./process.html">
-                    <img
-                      src="./images/screen04.png"
-                      alt="case icon"
-                      class="w-full dark:hidden rounded-xl md:max-h-[300px] md:min-h-[300px]"
-                    />
-                  </a>
+                  <img
+                    src="./images/screen04.png"
+                    alt="case icon"
+                    class="w-full dark:hidden rounded-xl md:max-h-[300px] md:min-h-[300px]"
+                  />
                 </div>
               </figure>
             </div>
@@ -446,23 +591,327 @@ Usala direttamente da smartphone o tablet, ovunque ti trovi, e tieni sempre sott
 
               <figure class="p-8 bg-white dark:bg-background-5 rounded-xl space-y-6">
                 <figcaption class="space-y-2">
-                  <h5>...e molto altro in futuro!</h5>
+                  <h5>Report e condivisione</h5>
                   <p class="max-w-[450px]">
-                   La piattaforma è in continua evoluzione. Più funzionalità, più integrazioni, per una gestione sempre più completa.
+                   Genera il conto automaticamente, esporta in PDF, condividi con l'allevatore via link sicuro — senza WhatsApp o fogli di carta.
                   </p>
                 </figcaption>
                 <div class="rounded-2xl overflow-hidden max-w-[400px] w-full">
-                  <a href="./process.html">
-                    <img
-                      src="./images/screen05.png"
-                      alt="case icon"
-                      class="w-full dark:hidden rounded-xl md:max-h-[300px] md:min-h-[300px]"
-                    />
-                  </a>
+                  <img
+                    src="./images/screen05.png"
+                    alt="case icon"
+                    class="w-full dark:hidden rounded-xl md:max-h-[300px] md:min-h-[300px]"
+                  />
                 </div>
               </figure>
             </div>
-          </div>          
+          </div> 
+          <!--Case Item 6-->
+          <div
+            class="stack-cards__item js-stack-cards__item lg:max-w-[483px] max-w-full max-sm:min-h-[433px]"
+          >
+            <div class="p-2.5 rounded-[20px] relative z-[10] overflow-hidden">
+              <!-- gradient border img  -->
+              <figure
+                class="absolute z-[-1] w-[600px] md:w-[900px] xl:w-[1050px] top-[-75%] md:top-[-111%] left-[-65%] md:left-[-103%] rotate-[-41deg] select-none pointer-events-none"
+              >
+                <img
+                  src="./images/ns-img-520.png"
+                  alt="gradient-border"
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+
+              <figure class="p-8 bg-white dark:bg-background-5 rounded-xl space-y-6">
+                <figcaption class="space-y-2">
+                  <h5>Multi-specie e in evoluzione</h5>
+                  <p class="max-w-[450px]">
+                   Non solo bovini: ZooCare supporta anche equini e ovini. Il team di sviluppoè sempre al lavoro, e nuove funzionalità vengono aggiunte ogni mese basate sul feedback dei professionisti come te.
+                  </p>
+                </figcaption>
+                <div class="rounded-2xl overflow-hidden max-w-[400px] w-full">
+                  <img
+                    src="./images/screen06.png"
+                    alt="case icon"
+                    class="w-full dark:hidden rounded-xl md:max-h-[300px] md:min-h-[300px]"
+                  />
+                </div>
+              </figure>
+            </div>
+          </div>                    
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- ============================ -->
+<!-- FAQ -->
+<!-- ============================ -->
+
+<section class="max-[1920px]:px-5 bg-background-1 bg-[url('/images/bg-waves-green.svg')] bg-fixed " id="faq" aria-label="Frequently Asked Questions">
+  <div
+    class="bg-background-1 max-w-[1880px] mx-auto lg:py-25 md:py-20 py-18 xl:py-28 rounded-2xl md:rounded-4xl border-[3px] border-[#E5EEC4]"
+    data-ns-animate
+    data-delay="0.1"
+  >
+    <div class="main-container">
+      <div class="text-center space-y-3 md:space-y-5 max-w-[720px] mx-auto lg:mb-[70px] mb-12">
+        <h5 data-ns-animate data-delay="0.2" class="text-accent pb-5">Domande Frequenti</h5>
+        <div class="space-y-3">
+          <h2 data-ns-animate data-delay="0.3">
+            Tutto quello che devi sapere<br/>su ZooCare
+          </h2>
+        </div>
+      </div>
+      <div class="accordion max-w-[770px] mx-auto space-y-4">
+        <div
+          class="accordion-item active-accordion bg-white rounded-2xl md:rounded-4xl px-6 md:px-8"
+        >
+          <button
+            class="accordion-action flex items-center cursor-pointer justify-between py-6 md:py-8 w-full"
+          >
+            <span
+              class="flex-1 text-left lg:text-heading-6 text-tagline-1 font-normal text-secondary"
+            >
+              Posso provare ZooCare gratis?
+            </span>
+            <!-- =========================
+Accordian Icon
+===========================-->
+<span class="accordion-arrow ml-2.5 block sm:ml-auto">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    width="16"
+    height="16"
+  >
+    <path
+      stroke-opacity="0.8"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+      class="stroke-secondary dark:stroke-accent"
+    />
+  </svg>
+</span>
+
+          </button>
+          <div class="accordion-content">
+            <div class="border-t border-t-stroke-2 pt-6 pb-8">
+              <p>
+                Sì, tutti i piani includono una prova gratuita di 14 giorni. Non è richiesta nessuna carta di credito per iniziare.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-white rounded-2xl md:rounded-4xl px-6 md:px-8">
+          <button
+            class="accordion-action flex items-center cursor-pointer justify-between py-6 md:py-8 w-full"
+          >
+            <span
+              class="flex-1 text-left lg:text-heading-6 text-tagline-1 font-normal text-secondary"
+            >
+              Posso cambiare piano in qualsiasi momento?
+            </span>
+            <!-- =========================
+Accordian Icon
+===========================-->
+<span class="accordion-arrow ml-2.5 block sm:ml-auto">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    width="16"
+    height="16"
+  >
+    <path
+      stroke-opacity="0.8"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+      class="stroke-secondary dark:stroke-accent"
+    />
+  </svg>
+</span>
+
+          </button>
+          <div class="accordion-content">
+            <div class="border-t border-t-stroke-2 pt-6 pb-8">
+              <p>
+                Certo. Puoi fare upgrade o downgrade del tuo piano in qualsiasi momento dalla dashboard. La differenza di prezzo viene calcolata automaticamente.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-white rounded-2xl md:rounded-4xl px-6 md:px-8">
+          <button
+            class="accordion-action flex items-center cursor-pointer justify-between py-6 md:py-8 w-full"
+          >
+            <span
+              class="flex-1 text-left lg:text-heading-6 text-tagline-1 font-normal text-secondary"
+            >
+              I miei dati sono al sicuro?
+            </span>
+            <!-- =========================
+Accordian Icon
+===========================-->
+<span class="accordion-arrow ml-2.5 block sm:ml-auto">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    width="16"
+    height="16"
+  >
+    <path
+      stroke-opacity="0.8"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+      class="stroke-secondary dark:stroke-accent"
+    />
+  </svg>
+</span>
+
+          </button>
+          <div class="accordion-content">
+            <div class="border-t border-t-stroke-2 pt-6 pb-8">
+              <p>
+                Assolutamente. I dati sono crittografati e conservati su server sicuri in Europa. Backup automatici giornalieri e accesso protetto con ruoli personalizzabili.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-white rounded-2xl md:rounded-4xl px-6 md:px-8">
+          <button
+            class="accordion-action flex items-center cursor-pointer justify-between py-6 md:py-8 w-full"
+          >
+            <span
+              class="flex-1 text-left lg:text-heading-6 text-tagline-1 font-normal text-secondary"
+            >
+              ZooCare funziona anche senza connessione internet?
+            </span>
+            <!-- =========================
+Accordian Icon
+===========================-->
+<span class="accordion-arrow ml-2.5 block sm:ml-auto">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    width="16"
+    height="16"
+  >
+    <path
+      stroke-opacity="0.8"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+      class="stroke-secondary dark:stroke-accent"
+    />
+  </svg>
+</span>
+
+          </button>
+          <div class="accordion-content">
+            <div class="border-t border-t-stroke-2 pt-6 pb-8">
+              <p>
+                Sì. Puoi registrare visite e interventi anche offline. Quando torni online, i dati si sincronizzano automaticamente.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-white rounded-2xl md:rounded-4xl px-6 md:px-8">
+          <button
+            class="accordion-action flex items-center cursor-pointer justify-between py-6 md:py-8 w-full"
+          >
+            <span
+              class="flex-1 text-left lg:text-heading-6 text-tagline-1 font-normal text-secondary"
+            >
+              Come funziona la fatturazione?
+            </span>
+            <!-- =========================
+Accordian Icon
+===========================-->
+<span class="accordion-arrow ml-2.5 block sm:ml-auto">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    width="16"
+    height="16"
+  >
+    <path
+      stroke-opacity="0.8"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+      class="stroke-secondary dark:stroke-accent"
+    />
+  </svg>
+</span>
+
+          </button>
+          <div class="accordion-content">
+            <div class="border-t border-t-stroke-2 pt-6 pb-8">
+              <p>
+                Puoi scegliere tra pagamento mensile o annuale (con sconto). La fattura viene emessa automaticamente ad ogni rinnovo. Puoi disdire in qualsiasi momento.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item bg-white rounded-2xl md:rounded-4xl px-6 md:px-8">
+          <button
+            class="accordion-action flex items-center cursor-pointer justify-between py-6 md:py-8 w-full"
+          >
+            <span
+              class="flex-1 text-left lg:text-heading-6 text-tagline-1 font-normal text-secondary"
+            >
+              Ho ancora qualche domanda, come posso contattare il supporto?
+            </span>
+            <!-- =========================
+Accordian Icon
+===========================-->
+<span class="accordion-arrow ml-2.5 block sm:ml-auto">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+    width="16"
+    height="16"
+  >
+    <path
+      stroke-opacity="0.8"
+      stroke-width="1.5"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="m19.5 8.25-7.5 7.5-7.5-7.5"
+      class="stroke-secondary dark:stroke-accent"
+    />
+  </svg>
+</span>
+
+          </button>
+          <div class="accordion-content">
+            <div class="border-t border-t-stroke-2 pt-6 pb-8">
+              <p>
+                Puoi scriverci a <a href="mailto:info@zoocare.app">info@zoocare.app</a> oppure tramite il form di contatto su <a href="https://hub.zoocare.app">hub.zoocare.app</a>. Rispondiamo entro 24 ore.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -1358,7 +1807,7 @@ Footer v4
 <script src="./vendor/stack-card.min.js"></script>
 
 
-  <script  src="/assets/index-DRffuRfy.js"></script>
+  <script  src="/assets/index-CYdLIMCA.js"></script>
 </footer>
 
   </body>
